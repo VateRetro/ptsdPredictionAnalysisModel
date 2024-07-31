@@ -199,15 +199,15 @@ ptsdToTraumaMap = px.choropleth(
     hover_name="Country",
     hover_data=["Lifetime prevalence of PTSD in total sample (%)", "Trauma exposure (%)"],
     color_discrete_map={
-        'Low Trauma-Low PTSD': '#66c2a5',            # Light Green
-        'Low Trauma-Moderate PTSD': '#41ab5d',       # Medium Green
-        'Low Trauma-High PTSD': '#238b45',           # Dark Green
-        'Moderate Trauma-Low PTSD': '#fee08b',       # Light Yellow
-        'Moderate Trauma-Moderate PTSD': '#f37726',  # Orange
-        'Moderate Trauma-High PTSD': '#5e7787',      # Dark Orange
-        'High Trauma-Low PTSD': '#156794',           # Light Red
-        'High Trauma-Moderate PTSD': '#ca431b',      # Medium Red
-        'High Trauma-High PTSD': '#b20000'           # Dark Red
+        'Low Trauma-Low PTSD': '#66c2a5',           
+        'Low Trauma-Moderate PTSD': '#41ab5d',       
+        'Low Trauma-High PTSD': '#238b45',           
+        'Moderate Trauma-Low PTSD': '#fee08b',       
+        'Moderate Trauma-Moderate PTSD': '#f37726',  
+        'Moderate Trauma-High PTSD': '#5e7787',      
+        'High Trauma-Low PTSD': '#156794',           
+        'High Trauma-Moderate PTSD': '#ca431b',      
+        'High Trauma-High PTSD': '#b20000'           
     },
     title="Lifetime PTSD Prevalence & Trauma Exposure by Country",
     category_orders={
