@@ -6,7 +6,7 @@ This project aims to investigate the relationship between genetic variations and
 
 ## Project Proposal / Research Question
 
-The primary research question of this project is: How do genetic variations, healthcare costs, and ethnic fractionalization influence the prevalence of PTSD in different populations?
+The primary research question of this project is: How do genetic variations, healthcare, and combat experience influence the prevalence of PTSD in different populations?
 
 ## Data Sources
 
@@ -19,11 +19,11 @@ The data cleaning and transformation process involved several steps to ensure co
 
 ## Visualizations
 
-To contextualize the findings, heatmaps were generated to understand the relationships between PTSD prevalence, trauma exposure, healthcare costs, and ethnic fractionalization. For example, correlation matrices were visualized using seaborn's heatmap function to display the correlations clearly. Scatter plots were created to visualize genotype frequencies across control and PTSD groups, aiding in the comparison of genetic variations. Context-specific visualizations, such as choropleth maps, were used to display the geographical distribution of PTSD prevalence and trauma exposure. Combined category maps highlighted regions with significant findings by displaying combined categories of ethnic fractionalization and PTSD prevalence.
+To contextualize the findings, heatmaps were generated to understand the relationships between PTSD prevalence, trauma exposure, and healthcare. For example, correlation matrices were visualized using seaborn's heatmap function to display the correlations clearly. Scatter plots were created to visualize genotype frequencies across control and PTSD groups, aiding in the comparison of genetic variations. Context-specific visualizations, such as choropleth maps, were used to display the geographical distribution of PTSD prevalence and trauma exposure.
 
 ## Key Insights
 
-The analysis confirmed the association between specific SNPs in the FKBP5 gene and PTSD prevalence in US service members. The correlation between healthcare costs and PTSD prevalence is 0.41. Given that higher values in the healthcare price index indicate more expensive healthcare, this suggests a slight negative correlation between the accessibility of healthcare and PTSD prevalence. More accessible (less expensive) healthcare tends to correlate with lower PTSD rates. The inclusion of the HIEF data was to investigate if countries with high PTSD rates but low trauma exposure rates, and high homogeneity, might indicate a genetic factor at play. The correlation between ethnic fractionalization and PTSD prevalence is -0.17. Lower values for the HIEF indicate more homogeneous countries, suggesting that more ethnically diverse countries tend to have lower PTSD prevalence. Analysis of genotype frequencies between control and PTSD groups generally showed a mutation frequency difference of +/- 1-7%. PTSD prevalence varies significantly across different countries, with certain regions exhibiting notably higher rates of trauma exposure and PTSD.
+The analysis confirmed the association between specific SNPs in the FKBP5 gene and PTSD prevalence in US service members, with 31 specific Allele combinationes having a P value of less than 0.1. The inclusion of the healthcare data was to investigate if countries with high PTSD rates have better quality or more affordable healthcare, however there is no reason to believe that countries with higher quality healthcare or more expensive healthcare are under reporting PTSD. PTSD prevalence varies significantly across different countries, with certain regions exhibiting notably higher rates of trauma exposure and PTSD, however it was determined that trauma exposure is not significant in association with PTSD.
 
 
 ## Specific Country Insights
